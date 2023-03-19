@@ -20,3 +20,10 @@ function onStopGenerateColors() {
     startBtn.disabled = false;
     stopBtn.disabled = true;
 }
+
+startBtn.style.padding = "10px";
+startBtn.style.marginLeft = "700px";
+startBtn.style.marginTop = "200px";
+startBtn.style.cursor = "pointer";
+stopBtn.style.cursor = "pointer";
+stopBtn.style.padding = "10px";
